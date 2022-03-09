@@ -4,10 +4,10 @@ This is a simple interpreter for the programming language Brainfuck written in A
 Just type your brainfuck code to label 'program' in the file.
 You can use the commands below.
 
-
 To compile the code:
 
 as -o brainfuck.o brainfuck.s
+
 ls -o brainfuck brainfuck.o
 
 To run and get the error code:
