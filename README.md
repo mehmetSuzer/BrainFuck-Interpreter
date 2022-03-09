@@ -5,12 +5,10 @@ Just type your brainfuck code to label 'program' in the file.
 You can use the commands below.
 
 To compile the code:
-as -o brainfuck.o brainfuck.s
-ls -o brainfuck brainfuck.o
+as -o brainfuck.o brainfuck.s; ld -o brainfuck brainfuck.o
 
 
 To run and get the error code:
-
 ./brainfuck; echo $?
 
 
